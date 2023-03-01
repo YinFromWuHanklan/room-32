@@ -10,6 +10,12 @@ export default function Nav() {
             <li>
                 <Link to="#kontakt">Kontakt</Link>
             </li>
+            <li>
+                <Link to="#kontakt">Kontakt</Link>
+            </li>
+            <li>
+                <Link to="#kontakt">Kontakt</Link>
+            </li>
         </ul>
     </nav>
 }

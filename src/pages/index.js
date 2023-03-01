@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "../components/Layout"
+import "../scss/main.scss"
 
 import { StaticImage } from "gatsby-plugin-image"
 // import { HeaderImg } from "../components/HeaderImage"
@@ -37,6 +38,10 @@ const IndexPage = () => {
 
       <h2>Check-In & Check-Out</h2>
       <p>Check-In: blablabalbal</p>
+      <p>
+        Check-In: ab 16 Uhr 
+      </p>
+
       <p>Check-Out: blablabalbal</p>
 
       <h2>Parken</h2>
