@@ -1,40 +1,17 @@
 import * as React from "react"
 import Layout from "../components/Layout"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "../scss/main.scss"
 
-import { StaticImage } from "gatsby-plugin-image"
-// import { HeaderImg } from "../components/HeaderImage"
+// import { StaticImage } from "gatsby-plugin-image"
 
-const pageStyles = {
-  color: "#232129",
-  padding: 50,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-}
-const headingAccentStyles = {
-  color: "#663399",
-}
 
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
       <Layout>
-        <div>
-          <StaticImage
-            src="../images/header-placeholder.jpg"
-            alt="Header Room 32"
-          />
-        <h1 style={headingStyles}>
-          Willkommen in Room 32
-          <br />
-          <span style={headingAccentStyles}>— dein Business Zuhause in München❤️</span>
-        </h1>
-      </div>
+      <main>
       <p>Hier findest du viele Informationen rund um deinen Aufenthalt bei Room 32 in München.</p>
-      <p>WLAN-Zugang</p>
+      <p class="wlan">WLAN-Zugang</p>
 
       <h2>Check-In & Check-Out</h2>
       <p>Check-In: blablabalbal</p>
@@ -79,8 +56,8 @@ const IndexPage = () => {
 
       <h2 id="kontakt">Kontakt</h2>
       <p>eventuell mit Foto</p>
+      </main>
       </Layout>
-    </main>
   )
 }
 

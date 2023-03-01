@@ -1,5 +1,46 @@
-$primary-color: red;
+// variables
+$primary-color: #00539CFF;
+$secondary-color: #EEA47FFF;
+$font-primary: "FjallaOne-Regular", serif;
+$font-secondary: "LibreBaskerville-Regular", serif;
+
 
 body {
-    background-color: $primary-color;
+    main {
+        display: block;
+        padding: 1rem;
+    }
+    h1,
+    h2 {
+        font-family: $font-primary;
+        font-weight: bold;
+        color: $primary-color;
+    }
+
+    p {
+        font-family: $font-secondary;
+
+        &.wlan {
+            border: 1px solid $primary-color;
+            background-color: $primary-color;
+            color: #FFF;
+            padding: 10px;
+        }
+    }
+
+    .navbar-brand {
+        font-family: $font-primary;
+        font-weight: bold;
+        color: $primary-color;
+        font-size: 1.5rem;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../images/header-placeholder.jpg") ;
+    }
+
+    
 }
